@@ -66,7 +66,7 @@ imageRouter.route('/:image')
                 sendImage(req.image.opt, true);
             }
         }
-        function readWriteImage (w, h, isMax) {
+        function readWriteImage (w, h) {
             fs.readFile('images/' + req.image.orig, function (err, data) {
                 if (err) {
                     sendImage(req.image.orig, false);
