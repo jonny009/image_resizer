@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--[if IE 7]><script>document.getElementsByTagName('html')[0].className += ' ie ie7';</script><![endif]-->
+    <!--[if IE 8]><script>document.getElementsByTagName('html')[0].className += ' ie ie8';</script><![endif]-->
+    <!--[if IE 9]><script>document.getElementsByTagName('html')[0].className += ' ie ie9';</script><![endif]-->
+    <title>{>title}</title>
+</head>
+<body>
+    <h2>Images</h2>
+<script>
+    
+</script>
+</body>
+</html>

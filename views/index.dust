@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--[if IE 7]><script>document.getElementsByTagName('html')[0].className += ' ie ie7';</script><![endif]-->
+    <!--[if IE 8]><script>document.getElementsByTagName('html')[0].className += ' ie ie8';</script><![endif]-->
+    <!--[if IE 9]><script>document.getElementsByTagName('html')[0].className += ' ie ie9';</script><![endif]-->
+    <title></title>
+</head>
+<body>
+<h1>Image resizing based on query parameter</h1>
+<ul>
+    <li><code>maxside</code> - sets the largest side to the value passed; good if you don't know dimensions; pulls from cache if file exists.</li>
+    <li><code>width</code> - sets the width &amp; maintains aspect ratio; pulls from cache if file exists.</li>
+    <li><code>height</code> - sets the height &amp; maintains aspect ratio; pulls from cache if file exists.</li>
+    <li><code>width &amp; height</code> - sets the dimensions and ignores aspect ratio; pulls from cache if file exists.</li>
+    <li><code>nocache</code> - creates a new image every time.</li>
+</ul>
+<h3><code>?height=400</code> (png)</h3>
+<img src="/images/me.png?height=400">
+<p>Original:</p>
+<img src="/images/me.png">
+<h3><code>?width=120</code> (jpg)</h3>
+<img src="/images/laputa.jpg?width=120">
+<p>Original:</p>
+<img src="/images/laputa.jpg">
+<h3><code>?maxside=50&amp;nocache=true</code> (jpeg)</h3>
+<img src="/images/avatar.jpeg?maxside=50&nocache=true">
+<p>Original:</p>
+<img src="/images/avatar.jpeg">
+<script>
+    
+</script>
+</body>
+</html>
