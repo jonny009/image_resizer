@@ -1,8 +1,7 @@
 image_resizer
 =============
 
-Nodejs and Expressjs image resizer based on query
-Image resizing based on query parameter
+Nodejs and Expressjs app with image resizing based on query string
 
 ```
 maxside=*val*
